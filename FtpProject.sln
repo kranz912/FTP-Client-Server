@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UI", "UI\UI.vcxproj", "{329CD857-280E-4AF3-BCE8-2BC15146026F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FtpClient", "UI\UI.vcxproj", "{329CD857-280E-4AF3-BCE8-2BC15146026F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FtpServer", "FtpServer\FtpServer.vcxproj", "{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,16 @@ Global
 		{329CD857-280E-4AF3-BCE8-2BC15146026F}.Release|x86.ActiveCfg = Release|Win32
 		{329CD857-280E-4AF3-BCE8-2BC15146026F}.Release|x86.Build.0 = Release|Win32
 		{329CD857-280E-4AF3-BCE8-2BC15146026F}.Release|x86.Deploy.0 = Release|Win32
+		{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}.Debug|ARM.ActiveCfg = Debug|Win32
+		{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}.Debug|x64.ActiveCfg = Debug|x64
+		{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}.Debug|x64.Build.0 = Debug|x64
+		{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}.Debug|x86.ActiveCfg = Debug|Win32
+		{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}.Debug|x86.Build.0 = Debug|Win32
+		{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}.Release|ARM.ActiveCfg = Release|Win32
+		{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}.Release|x64.ActiveCfg = Release|x64
+		{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}.Release|x64.Build.0 = Release|x64
+		{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}.Release|x86.ActiveCfg = Release|Win32
+		{386E3B3B-7AA0-4C81-88A1-4FB50C36B94B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
